@@ -17,8 +17,6 @@ class App extends Component {
           }}
 
           onRecordingComplete = {(videoBlob) => {                        
-            // const src = window.URL.createObjectURL(videoBlob);
-            // console.log(src);
             console.log('videoBlob', videoBlob)
             const url = URL.createObjectURL(videoBlob);
             console.log(url);
